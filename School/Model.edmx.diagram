@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c529b30d071544c1b614ac080ff36489" Name="Diagram1">
+        <EntityTypeShape EntityType="EreminModel.Client" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EreminModel.ClientService" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EreminModel.DocumentByService" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="EreminModel.Gender" Width="1.5" PointX="1.5" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EreminModel.Manufacturer" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="EreminModel.Product" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EreminModel.ProductPhoto" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="EreminModel.ProductSale" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EreminModel.Service" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EreminModel.ServicePhoto" Width="1.5" PointX="3" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EreminModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EreminModel.Tag" Width="1.5" PointX="3" PointY="16.25" IsExpanded="true" />
+        <AssociationConnector Association="EreminModel.FK_Client_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="EreminModel.FK_ClientService_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="EreminModel.FK_ClientService_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="EreminModel.FK_DocumentByService_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="EreminModel.FK_ProductSale_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="EreminModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="EreminModel.FK_ProductPhoto_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="EreminModel.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="EreminModel.FK_ServicePhoto_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="EreminModel.AttachedProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="EreminModel.TagOfClient" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
